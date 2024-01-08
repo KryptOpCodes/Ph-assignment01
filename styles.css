@@ -184,3 +184,86 @@ header {
   line-height: 56px;
   margin-bottom: 110px;
 }
+
+.btn-join-details {
+  margin-bottom: 110px;
+}
+
+/* New offer section */
+.new-offer {
+  margin: 0px auto 120px auto;
+  max-width: 1320px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-offer-context {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.new-offer-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.new-offer-details {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 22px;
+}
+
+.new-offer-des {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.new-offer-image {
+  border-radius: 463px;
+  border: 15px solid #f00;
+  padding: 50px;
+  margin-left: 70px;
+  margin-right: 120px;
+}
+
+.new-offer-celebration {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.new-offer-celeb-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.new-offer-celeb-des {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 42px;
+}
+
+.hny-sticker {
+  width: 140px;
+  height: 140px;
+}
