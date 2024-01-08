@@ -5,6 +5,28 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;900&display=swap");
 
+/* Common styles */
+.btn-join {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #f00;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-join:hover {
+  background-color: rgb(228, 0, 0);
+}
+
 /* Header section */
 header {
   margin: 50px auto 120px auto;
@@ -37,4 +59,91 @@ header {
   font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
+}
+
+/* Offer section */
+.offer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 0px 120px 0px;
+}
+
+.offer-title {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.offer-des1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.offer-des2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.offer-image {
+  max-width: 802.9px;
+}
+
+/* Party section */
+.party-section {
+  margin: 0px auto 120px auto;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("./Resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1320px;
+}
+
+.party-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-left: 138px;
+}
+
+.party-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+
+.party-des {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 32px;
+  /* max-width: 679px; */
+  margin-right: 40px;
+}
+
+.img-2024 {
+  margin: 68px 138px 68px 0px;
+  width: 319.83px;
+  height: 464.662px;
 }
