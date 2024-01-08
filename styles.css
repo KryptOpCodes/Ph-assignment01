@@ -1,9 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;900&display=swap");
 * {
   margin: 0px;
   padding: 0px;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;900&display=swap");
 
 /* Common styles */
 .btn-join {
@@ -325,4 +324,45 @@ header {
   position: absolute;
   left: 0px;
   bottom: 25px;
+}
+
+/* Gift section */
+.gift-section {
+  margin: 0px auto 120px auto;
+  max-width: 1320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gift-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.gift-details {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 22px;
+}
+
+.gift-des {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+
+.gift-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
