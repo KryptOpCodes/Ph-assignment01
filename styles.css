@@ -27,6 +27,10 @@
   background-color: rgb(228, 0, 0);
 }
 
+.red-text {
+  color: #f00;
+}
+
 /* Header section */
 header {
   margin: 50px auto 120px auto;
@@ -174,17 +178,6 @@ header {
   margin-bottom: 48px;
 }
 
-.detail-title {
-  color: #f00;
-  text-align: center;
-  font-family: Inter;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 56px;
-  margin-bottom: 110px;
-}
-
 .btn-join-details {
   margin-bottom: 110px;
 }
@@ -266,4 +259,70 @@ header {
 .hny-sticker {
   width: 140px;
   height: 140px;
+}
+
+/* Holiday sale section */
+.holiday-sale {
+  max-width: 1320px;
+  height: 986px;
+  margin: 0px auto 120px auto;
+  position: relative;
+}
+
+.sale-context {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sale-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.sale-details {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 28px;
+}
+
+.sale-des {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 0px 120px 0px 120px;
+}
+
+.red-rec {
+  position: absolute;
+  bottom: 0px;
+}
+
+.visual-person {
+  position: absolute;
+  right: 0px;
+  bottom: 229px;
+}
+
+.visual-50per {
+  position: absolute;
+  right: 276px;
+  bottom: 280px;
+}
+
+.visual-gift {
+  width: 796px;
+  position: absolute;
+  left: 0px;
+  bottom: 25px;
 }
