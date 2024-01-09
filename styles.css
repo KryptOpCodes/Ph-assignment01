@@ -445,3 +445,142 @@ header {
 .subscribe-btn:hover {
   background-color: rgb(216, 4, 4);
 }
+
+/* Footer section */
+footer {
+  width: 100%;
+  background-color: #070211;
+}
+
+.footer-content {
+  max-width: 1320px;
+  height: 609px;
+  margin: 0px auto 0px auto;
+  position: relative;
+}
+
+.footer-address {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  display: inline-block;
+  position: absolute;
+  top: 120px;
+  left: 0;
+}
+
+.footer-number {
+  color: #fff;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  display: inline-block;
+  position: absolute;
+  top: 120px;
+  right: 0;
+}
+
+.footer-number:hover {
+  color: #ffffffb9;
+}
+
+.footer-website {
+  color: #fff;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  display: inline-block;
+  position: absolute;
+  top: 160px;
+  right: 0;
+}
+
+.footer-website:hover {
+  color: #ffffffb9;
+}
+
+.call-icon {
+  width: 24px;
+  position: absolute;
+  top: 128px;
+  right: 210px;
+}
+
+.web-icon {
+  width: 24px;
+  position: absolute;
+  top: 168px;
+  right: 227px;
+}
+
+.hr01 {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  position: absolute;
+  width: 100%;
+  top: 250px;
+}
+
+.footer-socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 298px;
+}
+
+.social-icon {
+  width: 64px;
+}
+
+.social-icon:hover {
+  opacity: 50%;
+}
+
+.hr02 {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  position: absolute;
+  width: 100%;
+  top: 410px;
+}
+
+.footer-copyright {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 460px;
+  left: 0;
+}
+
+.unsubscribe-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #070211;
+  border: 1px solid #070211;
+  cursor: pointer;
+  position: absolute;
+  top: 444px;
+  right: 0;
+}
+
+.unsubscribe-btn:hover {
+  color: #ffffffb9;
+  border: 1px solid rgba(255, 255, 255, 0.534);
+}
